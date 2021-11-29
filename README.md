@@ -12,13 +12,13 @@ This lab will provide some practice doing the following:
 
 ## Setup
 
-Please complete this lab in a React [CodeSandbox](https://codesandbox.io) named "React Students".
+- Create a new react app called `nested-students`
 
 ## Minimum Requirements
 
 **The layout and styling of the markup is left up to your discretion.**
 
-1. Add a `students` value to the `<App>` component and initialize it with the following array of "student" data:
+1. Add a `students` value to the `<App>` component and initialize it with the following array of "student" data (similar to how we added a `post` object in Dino Blog):
 
 ```js
 [
@@ -83,15 +83,19 @@ Please complete this lab in a React [CodeSandbox](https://codesandbox.io) named 
 ]
 ```
 
-2. Code the `<App>` component's JSX to display a `<Student>` component for each student object in the `students` variable.
+2. Create a `<Roster />` component that you display within App (replace it's original JSX). (Don't forget to import Roster into `App.js`!) Pass `students` down to the Roster component as a prop.
 
-3. Create and code a `<Student>` component that:
+3. Fill the Roster component with JSX to display a `<Student />` component for each student object in the `students` array. (Refer back to dino blog as an example of how to use map to do this.)
+
+3. Create and code a `<Student />` component that:
 
 	- Accepts a student object as a prop.
-    - Renders the student's `name` & `bio` properties.
+    	- Renders the student's `name` & `bio` properties.
 	- Renders a `<Score>` component for each score object in the student's `scores` property.
 
 4. Create and code the `<Score>` component so that it renders the score object's `date` & `score` properties.
+
+**Solution:** https://github.com/WDI-SEA/nested-students-solution
 
 
 
