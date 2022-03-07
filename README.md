@@ -4,15 +4,10 @@
 
 ## Intro
 
-This lab will provide some practice doing the following:
-
-- Creating a UI using a hierarchy of components
-- Passing data as props from a parent to a child component
-- Mapping arrays of data into arrays of components
+This assignment is a follow up to the [nested students lab](https://gasei.gitbook.io/sei/16-react/intro-react/nested-students). You'll recreate the same app, but usign functional components this time!
 
 ## Setup
-
-- Create a new react app called `nested-students`
+Fork & clone this repo.
 
 ## Minimum Requirements
 
