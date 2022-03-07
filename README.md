@@ -95,7 +95,5 @@ This lab will provide some practice doing the following:
 
 4. Create and code the `<Score>` component so that it renders the score object's `date` & `score` properties.
 
-**Solution:** https://github.com/WDI-SEA/nested-students-solution
-
 
 
