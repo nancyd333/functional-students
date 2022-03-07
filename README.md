@@ -7,7 +7,9 @@
 This assignment is a follow up to the [nested students lab](https://gasei.gitbook.io/sei/16-react/intro-react/nested-students). You'll recreate the same app, but usign functional components this time!
 
 ## Setup
-Fork & clone this repo.
+
+- If this is a deliverable, fork & clone this repo, then run `npx create-react-app .`
+- If this is a lab, create a new react app called `functional-students`.
 
 ## Minimum Requirements
 
